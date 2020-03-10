@@ -15,7 +15,7 @@ type (
 	}
 	// Twiiter
 	Youtube struct {
-		URL          string
+		URL          string `json:"url"`
 		AuthorName   string `json:"author_name"`
 		ProviderURL  string `json:"provider_url"`
 		HTML         string `json:"html"`
